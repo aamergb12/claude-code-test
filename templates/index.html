@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Flask Auth App{% endblock %}
+
+{% block content %}
+<h1>Welcome to Flask Auth App</h1>
+<p>This is a Flask web application with user authentication.</p>
+<p>Please <a href="{{ url_for('login') }}">login</a> or <a href="{{ url_for('register') }}">register</a> to get started.</p>
+{% endblock %}
